@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgba(255, 119, 0, 0.912);
+    z-index: 1000;
+}
+.logo_area {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.logo_area img {
+    width: 100%;
+    height: 100%;
+    /* margin-top: 7px; */
+}
+.logo_area span {
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: flex;
+}
+.ex_text {
+    color: rgba(255, 119, 0, 0.912);
+}
+.register_form_area {
+    width: 100%;
+    box-shadow: 2px 2px 3px 2px rgb(50, 50, 50);
+    position: relative;
+    border: 1px solid white;
+  
+}
+.main_container {
+    background-color: black;
+}
+#register_form label {
+    color: white;
+}
+#register_form input {
+    margin-bottom: 10px;
+    color: black;
+}
+#reg_pass_input {
+    position: relative;
+}
+.reg_pass_eye {
+    position: absolute;
+    top: 51%;
+    right: 5%;
+    cursor: pointer;
+}
+#Conf_reg_pass_input {
+    position: relative;
+}
+.reg_conf_pass_eye {
+    position: absolute;
+    top: 66%;
+    right: 5%;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .reg_conf_pass_eye {
+        right: 7%;
+        top: 66%;
+        
+    }
+    .reg_pass_eye {
+        right: 7%;
+        top: 51%;
+    }
+}
+@media screen and (max-width: 462px) {
+    .reg_conf_pass_eye {
+        right: 9%;
+        top: 66%;
+        
+    }
+    .reg_pass_eye {
+        right: 9%;
+        top: 51%;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .reg_conf_pass_eye {
+        right: 10%;
+        top: 66%;
+        
+    }
+    .reg_pass_eye {
+        right: 10%;
+        top: 51%;
+    }
+}
+@media screen and (max-width: 387px) {
+    .reg_conf_pass_eye {
+        right: 13%;
+        top: 63%;
+        
+    }
+    .reg_pass_eye {
+        right: 13%;
+        top: 48%;
+    }
+}
+@media screen and (max-width: 278px) {
+    .reg_conf_pass_eye {
+        right: 17%;
+        top: 60%;
+        
+    }
+    .reg_pass_eye {
+        right: 17%;
+        top: 46%;
+    }
+}

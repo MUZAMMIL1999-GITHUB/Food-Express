@@ -1,0 +1,33 @@
+#cart_section {
+    width: 100%;
+    margin-top: 70px;
+    background-color: black;
+    padding: 20px 40px;
+}
+.inc_dec_area .dec_btn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgba(250, 27, 27, 0.864);
+    font-size: 1.7rem;
+}
+.inc_dec_area .inc_btn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgba(17, 120, 10, 0.864);
+    font-size: 1.7rem;
+}
+@media screen and (max-width: 413px) {
+    
+    .card .img_area {
+        display: flex;
+        justify-content: center;
+    }
+}
