@@ -50,7 +50,7 @@ export function Login() {
             <header className="header">
                 <div className="logo_area">
                     <img src={logoImage} alt="" />
-                    <span className='text-light'>Food <span className='ex_text'>Express</span></span>
+                    <span className='text-light'>Buy <span className='ex_text'>buzz</span></span>
                 </div>
             </header>
            <div className="main_login_container w-100 vh-100 d-flex justify-content-center align-items-center">

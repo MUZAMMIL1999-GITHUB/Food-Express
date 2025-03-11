@@ -61,7 +61,7 @@ export function Cart({ cartItems, setCartItems, handleDelete,  handleOnChange}) 
             <header className="header">
                 <div className="logo_area">
                     <img src={logoImage} alt="" />
-                    <span className='text-light'>Food <span className='ex_text'>Express</span></span>
+                    <span className='text-light'>Buy <span className='ex_text'>buzz</span></span>
                 </div>
                 <div className="navLinks" ref={navRef}>
                     <Link to={'/home'} className='active'>Home</Link>

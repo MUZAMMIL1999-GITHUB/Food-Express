@@ -17,7 +17,7 @@ export function Contact({cartItems}) {
              <header className="header">
                 <div className="logo_area">
                     <img src={logoImage} alt="" />
-                    <span className='text-light'>Food <span className='ex_text'>Express</span></span>
+                    <span className='text-light'>Buy <span className='ex_text'>buzz</span></span>
                 </div>
                 <div className="navLinks navLinks_hide" ref={navRef}>
                    <Link to={'/home'}>Home</Link>
